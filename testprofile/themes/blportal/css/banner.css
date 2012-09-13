@@ -1,0 +1,42 @@
+/* Slider */
+
+/* Easy Slider */
+#banner{
+	position:relative;
+}
+#slider ul, #slider li,
+#slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#slider2{margin-top:1em;}
+#slider li, #slider2 li{ 
+	width:990px;
+	height:320px;
+	overflow:hidden; 
+}	
+#prevBtn, #nextBtn,
+#slider1next, #slider1prev{ 
+	display:block;
+	width:35px;
+	height:41px;
+	position:absolute;
+	/*left:-30px;*/
+	top:167px;
+	z-index:100;
+}	
+#nextBtn, #slider1next{ 
+	left:955px;
+}														
+#prevBtn a, #nextBtn a,
+#slider1next a, #slider1prev a{  
+	display:block;
+	position:relative;
+	width:35px;
+	height:41px;
+	background:url(../images/btn_prev.png) no-repeat 0 0 ;	
+}	
+#nextBtn a, #slider1next a{ 
+	background:url(../images/btn_next.png) no-repeat 0 0 ;	
+}	
